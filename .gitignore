@@ -1,7 +1,3 @@
-
-# Created by https://www.toptal.com/developers/gitignore/api/matlab
-# Edit at https://www.toptal.com/developers/gitignore?templates=matlab
-
 ### MATLAB ###
 # Windows default autosave extension
 *.asv
@@ -34,5 +30,3 @@ codegen/
 
 # Octave session info
 octave-workspace
-
-# End of https://www.toptal.com/developers/gitignore/api/matlab
