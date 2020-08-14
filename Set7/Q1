@@ -1,0 +1,19 @@
+clear
+m=10000;
+a=2; %maximum variable of alpha
+d=20;  %ensemble
+N=(a/0.1);
+E=zeros(d,N);
+s=0:0.1:a;
+for w=1:d
+    for A=1:N+1
+        e=0;
+        for M=1:m
+            x=randn;          
+            e=e+((s(A)+(x^2)*(0.5-2*(s(A)^2)))*exp(-2*s(A)*(x^2)));
+        end
+        E(w,A)=e/m;
+    end
+end
+E1=mean(E);
+plot(s,E1)
