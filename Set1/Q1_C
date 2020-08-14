@@ -1,0 +1,3 @@
+cat /home/sasan/Desktop/list_arrange.sh
+wc -l /home/sasan/Desktop/list_arrange.sh
+split -l69 -d /home/sasan/Desktop/list_arrange.sh sasan

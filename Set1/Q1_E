@@ -1,0 +1,8 @@
+gnuplot<<sasan
+set terminal jpeg
+set xlabel "horizontal"
+set ylabel "vertical"
+set title "plot"
+set output 'plot.jpeg'
+plot "/home/sasan/Desktop/sunspot.sh"
+sasan

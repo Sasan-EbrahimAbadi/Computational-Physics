@@ -1,0 +1,2 @@
+mkdir new_directory
+touch /home/sasan/new_directory/new_file
