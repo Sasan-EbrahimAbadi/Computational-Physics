@@ -1,0 +1,6 @@
+#!/bin/bash
+for sasan in {100..1..5}
+do
+echo "${sasan}"
+done >>sasan.txt
+
